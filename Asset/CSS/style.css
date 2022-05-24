@@ -1,0 +1,172 @@
+:root {
+--Almost-White: hsl(0, 0%, 98%);
+--Medium-Gray: hsl(0, 0%, 41%);
+--Almost-Black: hsl(0, 0%, 8%);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    /* padding-right: 20px; */
+}
+
+button {
+    cursor: pointer;
+}
+
+/*----------------------- HEADER -----------------------*/
+header {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+}
+
+header .info {
+    display: flex;
+    justify-content: space-between;
+    width: 28vw;
+}
+
+header .description {
+    display: flex;
+    /* justify-content: space-between; */
+    padding-top: 1px;
+    /* padding-right: 682px; */
+}
+
+header .description p {
+    color: var(--Medium-Gray);
+}
+
+header .description .features {
+    display: flex;
+    padding-left: 20px;
+    /* justify-content: space-between; */
+}
+
+header .description .company {
+    display: flex;
+    padding-left: 20px;
+}
+
+header .description .features .arrows, header .description .company .arrows2 {
+    width: 0.8vw;
+    padding-left: 5px;
+}
+
+header .description .features .arrows img, header .description .company .arrows2 img {
+    width: 100%;
+}
+
+header .description .careers, header .description .about {
+    padding-left: 20px;
+}
+
+header .registration #login {
+    background-color: white;
+    border-radius: 18px;
+    /* box-sizing: border-box;
+    border-color: red; */
+    border: none;
+    padding: 13px 20px;
+    /* margin-top: 18px;
+    margin-bottom: 20px; */
+    font-size: 14px;
+    font-weight: bolder;
+    color: var(--Medium-Gray);
+    /* cursor: pointer; */
+}
+
+header .registration #register {
+    background-color: white;
+    border-radius: 18px;
+    /* box-sizing: border-box;
+    border-color: red; */
+    border: 1px solid var(--Medium-Gray);
+    padding: 13px 20px;
+    /* margin-top: 18px;
+    margin-bottom: 20px; */
+    font-size: 14px;
+    font-weight: bolder;
+    color: var(--Medium-Gray);
+    /* cursor: pointer; */
+}
+
+
+/*----------------------- HEADER END -------------------*/
+
+
+/*----------------------- MAIN -------------------------*/
+.main {
+    display: flex;
+    margin: 10px 70px 0 70px;
+}
+
+.main .caption {
+    /* width: 40vw;
+    margin-right: 20px; */
+    padding-left: 36px;
+}
+
+.main .caption h1 {
+    font-size: 97px;
+    width: 40vw;
+}
+
+.main .caption p {
+    font-size: 18px;
+    width: 25vw;
+    padding-top: 20px;
+    line-height: 1.5;
+}
+
+.main .caption #learn-more {
+    background-color: var(--Almost-Black);
+    border-radius: 10px;
+    /* box-sizing: border-box;
+    border-color: red; */
+    border: none;
+    padding: 13px 35px;
+    margin-top: 18px;
+    margin-bottom: 20px;
+    font-size: 14px;
+    font-weight: bolder;
+    color: var(--Almost-White);
+    /* cursor: pointer; */
+}
+
+.main .caption .sponsor-images {
+    padding-top: 55px;
+}
+
+.main .caption .sponsor-images img {
+    padding-left: 20px;
+}
+
+.main .image {
+    /* width: 50vw; */
+    padding-left: 170px;
+    padding-top: 30px;
+}
+
+.main .image .desktop-view {
+    width: 400px;
+    height: 470px;
+}
+
+.main .image .desktop-view img {
+    width: 100%;
+    height: inherit;
+}
+
+.main .image .mobile-view {
+    display: none;
+}
+
+
+
+/*----------------------- MAIN END ---------------------*/
